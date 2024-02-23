@@ -1,4 +1,11 @@
 import Image from "next/image";
+echo "# Promptopia" >> README.md
+git init
+git add .
+git commit -m "Initialized NEXT setup & environment"
+git branch -M main
+git remote add origin https://github.com/praveen-rikhari/Promptopia.git
+git push -u origin main
 
 export default function Home() {
   return (
